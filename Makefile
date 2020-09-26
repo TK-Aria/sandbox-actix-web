@@ -1,7 +1,3 @@
-# Makefile
-# help:
-#    all)
-#    make --always-make
 .DEFAULT_GOAL := help
 MAKEFILE_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
 
@@ -14,10 +10,6 @@ help:
 .PHONY: gitignore ## [category]`description`.
 gitignore:
 	gibo dump windows macos linux rust 
-
-.PHONY: setup ## [category]`description`.
-setup:
-	cargo new boilerplate-rust
 	
 .PHONY: build ## [category]`description`.
 build:
