@@ -1,0 +1,12 @@
+{
+    "name": "boilerplate-rust",
+    "context": "..",
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+		"rust-lang.rust",
+		"vadimcn.vscode-lldb"
+    ]
+}
