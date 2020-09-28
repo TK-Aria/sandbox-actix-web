@@ -7,6 +7,10 @@ $ cargo run
 $ curl http://localhost:8088
 ```
 
+```
+$ ssh -R 80:localhost:8080 ssh.localhost.run
+```
+
 ## manual install rls in docker
 
 ```
